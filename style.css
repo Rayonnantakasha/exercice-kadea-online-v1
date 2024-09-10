@@ -1,0 +1,262 @@
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10% 0 10%;
+}
+
+.header--nav{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.header--nav--list{
+    text-decoration: none;
+    color: #282c34;
+    font-weight: bold;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+    padding: 0 10% 0 10%;
+}
+
+.secton--items{
+    padding-top:40px;
+    width: 50%;
+}
+
+.section--paragraphe{
+    width: 80%;
+}
+
+/*Stylisation des cards*/
+
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card--conteiner{
+    justify-content: space-between;
+    border: solid 1px;
+    border-radius: 10px;
+    width: 20%;
+    height: 20vh;
+}
+
+.bloc{
+    height: 50vh;
+    align-items: center;
+}
+
+.card--title{
+    font-weight: bold;
+    text-align: center;
+}
+
+.card--paragraphe{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: #3e3d3d;
+}
+
+/*stylisation de la section avec coding editor*/
+
+.code{
+    padding: 2% 10% 2% 10%;
+}
+
+.code--bloc{
+    padding-left: 5%;
+}
+
+.code--title{
+    width: 80%;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+ .paragraphe{
+    width: 60%;
+    color: #ffffff;
+    font-weight: 100;
+ }
+
+
+
+ /*stylisation de la section apprentissage*/
+
+.section--title{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2%;
+ }
+  
+.card--section{
+    justify-content: space-between;
+    border: solid 1px color(#f9ecda);
+    border-radius: 10px;
+    width: 20%;
+    height: 10vh;   
+}
+
+.section--cours{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+.card--bloc{
+    padding-top: 5%;
+}
+
+.card--link{
+    padding: 3% 0 0 8%;
+}
+
+/*stylisation du formulaire*/
+
+.form--input{
+    background-color: #f9ecda;
+    border: solid 1px;
+    border-radius: 5px;
+    width: 50vh;
+    height: 5vh;
+}
+
+.form--bloc1{
+    padding-left: 10%;
+}
+
+.form--bloc2{
+    padding-right: 10%;
+}
+
+.form--bloc{
+    padding-top: 2%;
+    padding-left: 12%;
+}
+
+.form--texte{
+    background-color: #f9ecda;
+    border: solid 1px;
+    border-radius: 5px;
+    width: 105vh;
+    height: 10vh; 
+    text-align: center;
+}
+
+/*stylisaton des boutton et liens*/
+
+.buttton--bloc{
+    text-align: right;
+    padding:3% 11% 0 0;
+}
+
+.form--button{
+    background-color: #D92950;
+    padding: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.link--color{
+    color: #D92950;
+    font-weight: bold;
+}
+
+.link--bloc{
+    padding-top: 5%;
+}
+
+.link--button{
+    border: solid 1px color(red);
+    border-radius: 10px;
+    background-color: #D92950;
+    color: #ffffff;
+    padding: 20px;
+}
+
+
+/*code de couleur*/
+
+.beige--color{
+    background-color: #f9ecda;
+}
+
+.title--color{
+    background-color: #282c34;
+}
+
+.texte--color{
+    color: #3e3d3d;
+}
+
+.bg--white{
+    background-color: #ffffff;
+}
+
+.link--color{
+    color: #D92950;
+}
+
+/*stylisation du footer*/
+
+footer{
+    text-align: center;
+    padding:5% 0 5% 0;
+}
+
+.footer--items{
+    display: flex;
+    gap: 2rem;
+    padding-left: 45%;
+}
+
+
+/*stylisation de la page cours*/
+
+.bloc--section{
+    padding-top: 10%;
+    /*pour deplacer l'image*/
+}
+
+.bloc--item{
+    padding-top: 15%;
+    /*pour deplacer le titre et le paragraphe*/
+}
+
+.bloc-titre{
+    font-weight: bold;
+}
+
+.bloc--paragraphe{
+    width: 40%;
+    padding-left: 30%;
+}
+
+.link--direction{
+    display: flex;
+    padding-left:7%;
+    padding-top: 3%;
+}
+
+.link--next{
+    padding-left: 1%;
+}
